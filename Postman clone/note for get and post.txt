@@ -1,0 +1,14 @@
+https://randomuser.me/api/-----For get request
+
+https://jsonplaceholder.typicode.com/posts-----For Post Request
+
+JSON.stringify({
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
+  })-----JSON Content
+
+headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+body:data
